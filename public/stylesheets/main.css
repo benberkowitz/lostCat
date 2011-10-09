@@ -1,0 +1,80 @@
+/* ==================
+   Hello!
+   This is your css file, it contains all the styling for your webpage!
+   go design something crazzzyy
+   ========================
+*/
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+a{
+	color:#b96300;
+	text-decoration: none;
+}
+a:hover {
+	color: #666;
+}
+
+body {
+	background:#eceef0;
+	height:100%;
+    margin:0px;
+    padding:0px;
+    font-family: 'Helvetica Neue', Helvetica, Lucida, Arial, sans-serif;
+    font-size:15px;
+    color:#333;
+}
+#header{
+    width:100%;
+    height:100px;
+    padding:20px;
+    background:#474747;
+    border-bottom:2px solid #fff;
+}
+#title{
+    font-size:50px;
+    color: #999; 
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+#tagline{
+    font-size:20px;
+    color:#222; 
+    text-shadow: 0px 2px 3px #555;
+    }
+#wrapper{
+    width:1200;
+    height:100%;
+    padding:40px;
+}
+#center_float{
+    width:800px;
+   padding:20px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background:#ffffff;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:#cccccc;
+    float:right;
+}
+
+#name{
+    font-weight:bold;
+	line-height: 17px;
+	color: #555;
+	
+}
+
+#lower_block{
+    width:200px;
+    margin:80px auto;
+    background:#ffffff;
+    padding:20px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:#cccccc;
+    float:left;
+}
