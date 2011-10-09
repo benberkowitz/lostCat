@@ -1,6 +1,6 @@
 /* ==================
    Hello!
-   This is your css file, it contains all the styling for your webpage!
+   This is my css file for Lost Cats, it contains all the styling for my webpage!
    go design something crazzzyy
    ========================
 */
@@ -56,7 +56,7 @@ body {
     text-align:center;
     background:#ffffff;
     border-radius: 5px;
-    border-style:solid;
+    border-style: solid;
     border-color:#cccccc;
     float:right;
 }
@@ -68,7 +68,7 @@ body {
 	
 }
 
-#lower_block{
+#left_block{
     width:200px;
     margin:80px auto;
     background:#ffffff;
