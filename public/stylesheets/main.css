@@ -10,11 +10,22 @@ p {
     margin: 0px;
 }
 a{
-	color:#b96300;
-	text-decoration: none;
+	border-radius:2px;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.50);
+    text-shadow: 1px 1px 1px #444444;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    color:#FFFFFF;
+    border:1px solid rgba(0, 0, 0, 0.25);
+    padding:4px 100px 6px 8px;
+    background-color:#333;
 }
 a:hover {
-	color: #666;
+	color:#FFF;
+    background-color:#666;
 }
 
 body {
@@ -79,6 +90,7 @@ body {
     border-style:solid;
     border-color:#cccccc;
     float:left;
+    color:#666;
 }
 #left_block_bottom{
     width:200px;
@@ -89,4 +101,17 @@ body {
     border-style:solid;
     border-color:#cccccc;
     float:left;
+    color:#666;
 }
+#button{
+    padding:7px;
+}
+#instructions{
+    float:left;
+    width:100%;
+    }
+#step{
+border-bottom: solid #ccc 1px;
+width:100%;
+float:left;
+}    
