@@ -112,6 +112,10 @@ body {
     }
 #step{
 border-bottom: solid #ccc 1px;
-width:100%;
+width:150px;
+height:25px;
 float:left;
+margin-top:10px;
+background-color:#ccc;
+border:solid #999 1px;
 }    
