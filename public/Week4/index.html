@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Where I get my crushin on</title>
+  <meta name="description" content="this site is about crushin on my teachers" />
+  <meta name="keywords" content="Crush Hard"/>
+  <link rel="stylesheet" href="./stylesheets/main.css" type="text/css" media="screen">
+  <script src="./javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./javascripts/main.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header"><span id="logo"><b>Crush</b>Stream</span><span class="nav"> <a href="">Home</a></span><span class="nav"><a href="">Profile</a></span></div>
+<div id="main">
+<h1>TwitterFaceCrushStream</h1>
+<div id="newcrushes">4 new crushes available. Click to reveal.</div>
+<!--this is kind of cheap but it works. Setting up a blank div to prepend to-->
+<div id="newpostbox"></div>
+<div class="postbox">
+<h1 class="post_title">I SEE YOU Bay Gross</h1><p class="post_body">I'd let you inspect my DOM structure anytime.</p>
+<div class="posttime">20 minutes ago</div>
+</div>
+<div class="postbox">
+<h1 class="post_title">sick flow</h1><p class="post_body">totally crushing on my hackyale prof. Tall, whimsical good locks and a flow that just won't stop. Go adead, will. Teach me how code. I'm ready for you.</p>
+<div class="posttime">4 hours ago</div>
+</div>
+<!-- blank post for cloning -->
+<div style="display: none;">
+  <div id="testpostbox">
+  <h1 class="post_title">.</h1>
+  <p class="post_body">.</p>
+  <div class="posttime">.</div>
+</div>
+</div>
+<!-- submission post -->
+<div id="blank_post" class="postbox">
+      <input class="new_post_title defaultText" value="Sample Title" alt="Title" />
+      <textarea class="new_post_body defaultText" alt="omg on cross campus">Post Description</textarea>
+      <button class="submit_post">Submit!</button>
+</div>
+</div>
+<div id="footer">&copy; FaceCrush 2011 </div>
+</body>
+</html>
